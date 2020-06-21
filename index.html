@@ -1,132 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Сайт портфолио</title>
+    <title>Мой сайт портфолио - Webcademy.ru</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700&display=swap&subset=cyrillic,cyrillic-ext"
+      href="https://fonts.googleapis.com/css?family=Merriweather|Noto+Sans|PT+Sans+Caption:400,700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="img/favicon/favicon-16x16.png"
     />
   </head>
   <body>
- <header class="header">
-    <div class="container">
-      <h1 class="site-heading">
-        Елена Тихомирова <br />
-        Верстальщик и веб-разработчик
-      </h1>
-      <div class="slogan">
-        <p>Работаю качественно и вовремя</p>
+    <div class="header">
+      <div class="header__title">Елена Тихомирова</div>
+      <div class="header__slogan">
+        Верстка сайтов на HTML и CSS<br />
+        HTML5 CSS3 JS jQuery
       </div>
-    
-      <div class="social-icons">
-        <a href="https://vk.com/freia7" target="_blank">
-          <img src="icons/vk.png" alt="VK" />
-        </a>
-
-        <a href="https://www.facebook.com/lena.tarbeeva" target="_blank">
-          <img src="icons/facebook.png" alt="Facebook" />
-        </a>
-
-        <a href="https://t-do.ru/eltihomirova" target="_blank">
-          <img src="icons/telegram.png" alt="Telegram" />
-        </a>
+      <div class="header__arrow">
+        <i class="fas fa-chevron-down"></i>
       </div>
     </div>
-    <!--Конец-->
- </header>
- <main>
- <section class="about-me">
-  <div class= "container">
-<section class="row-space-between">
-  <div class="about-me-text">
-    <h2 class="title-2">Обо мне</h2>
-    <p>Верстаю и создаю сайты. 
-    Могу сделать для вас сайт и 
-    запустить его в интернете.</p>
-    <h3 class="title-3">Что я умею: </h3>  
-     <ul> 
-    <li>Создание сайтов.</li>
-    <li>Верстка сайтов: HTML, CSS3. Начальное знание JavaScript. Опыт с разными CMS: WordPress, Joomla, Bitrix. </li>
-    <li>Написание контент-плана и наполнение сайтов.</li>
-    <li>SERM — управление репутацией компании и продукта в поисковых системах.</li>
-    </ul>
-    </div>
-
-  <div class="about-me-foto">
-<img src="img/portfolio/ava.jpg" alt="About me">
-  </div>
-</section> 
-</section>
-</div>
- 
-
-  </div>
-  <section class="portfolio">
-    <div class="container">
-      <div class="portfolio-header">
-      <h2 class="title-2 text-center">Портфолио</h2>
-      </div>
-        <div class="cards-wrapper">
-    
-          <div class="card">
-             <a href="https://freia7.github.io/coffe/" target="_blank">
-                <img class="card-img" src="img/portfolio/6.jpg" alt="Fabrika"> 
+    <div class="portfolio">
+      <div class="container">
+        <div class="title">Портфолио</div>
+        <div class="row">
+          <div class="col-4">
+            <div class="portfolio-item__img">
+              <a href="https://freia7.github.io/coffe/" target="_blank">
+                <img src="img/portfolio/6.jpg" alt="Фабрика кофе" />
               </a>
-          <h3 class="card-title">Фабрика кофе</h3>
-          <div class="card-desc">
-            Создание лендинга </div> 
-            <a href="https://freia7.github.io/coffe/" target="_blank" class="card-link">Ссылка на сайт</a>
-          </div>
-    
-          <div class="card">
-            <a href="https://freia7.github.io/Uber/" target="_blank">
-               <img class="card-img" src="img/portfolio/2.jpg" alt="Uber"> 
-            </a>
-            <h3 class="card-title">Uber</h3>
-            <div class="card-desc">
-              Верстка cайта, мобильная адаптация
-             </div> 
-              <a href="https://freia7.github.io/Uber/" target="_blank" class="card-link">Ссылка на сайт</a>
             </div>
-            
-            <div class="card">
-              <a href="https://freia7.github.io/Fishnet/" target="_blank">
-                <img class="card-img" src="img/portfolio/3.jpg" alt="Portfolio"> 
-              </a>
-              <h3 class="card-title">Interior. Интернет-магазин мебели</h3>
-              <div class="card-desc">
-                Создание веб-сайта </div> 
-                <a href="https://freia7.github.io/Fishnet/" target="_blank" class="card-link">Ссылка на сайт</a>
-              </div>
-            
-            
-              <div class="card">
-                <a href="https://freia7.github.io/Moto/" target="_blank"> 
-                  <img class="card-img" src="img/portfolio/5.jpg" alt="Portfolio"> 
-                </a>
-                <h3 class="card-title">The Weels. Мото-сайт, лендинг</h3>
-                <div class="card-desc">
-                  Верстка </div> 
-                  <a href="https://freia7.github.io/Moto/" target="_blank" class="card-link">Ссылка на сайт</a>
-                </div>
-            
-</div>
-    </div>
-    </section>
+            <div class="portfolio-item__title">
+              <a href="https://freia7.github.io/coffe/">Фабрика кофе</a>
+            </div>
+            <div class="portfolio-item__text">
+              <p>Создание лендинга.</p>
+              <p></p>
+            </div>
+          </div>
 
-  </main>
-  <div class="container">
-    <footer class="footer">
-       <div class="container"></div>
-       <div class="cta">
-         <strong>За созданием сайта:</strong> 
-    обращайтесь на <a href="mailto:freia84@mail.ru">freia84@mail.ru</a>
-  </div>
-    </footer>
-  </div>
+          <div class="col-4">
+            <div class="portfolio-item__img">
+              <a href="https://freia7.github.io/Uber" target="_blank">
+                <img src="img/portfolio/2.jpg" alt="Uber" />
+              </a>
+            </div>
+            <div class="portfolio-item__title">
+              <a href="https://freia7.github.io/Uber">Uber</a>
+            </div>
+            <div class="portfolio-item__text">
+              <p>Верстка лендинга. Мобильная адаптивность.</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="portfolio-item__img">
+              <a href="https://freia7.github.io/Fishnet/" target="_blank">
+                <img src="img/portfolio/3.jpg" alt="Interior" />
+              </a>
+            </div>
+            <div class="portfolio-item__title">
+              <a href="https://freia7.github.io/Fishnet/">Interior. Интернет-магазин</a>
+            </div>
+            <div class="portfolio-item__text">
+              <p>Создание веб-сайта.</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="portfolio-item__img">
+              <a href="https://freia7.github.io/Moto/" target="_blank">
+                <img src="img/portfolio/5.jpg" alt="Uber" />
+              </a>
+            </div>
+            <div class="portfolio-item__title">
+              <a href="https://freia7.github.io/Moto/">The Weels</a>
+            </div>
+            <div class="portfolio-item__text">
+              <p>Мото-сайт, лендинг.</p>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="portfolio-item__img">
+              <img
+                src="img/portfolio/project_portfolio.jpg"
+                alt="Личный сайт портфолио"
+              />
+            </div>
+            <div class="portfolio-item__title">
+              <a href="#">Личный сайт портфолио</a>
+            </div>
+            <div class="portfolio-item__text">
+              <p>
+                Верстка личного сайта портфолио, на котором вы сейчас
+                находитесь.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="raw">
+          <div class="col-4">
+            <p class="footer__name">Елена Тихомирова</p>
+            <p>HTML верстка и разработка сайтов</p>
+          </div>
+          <div class="col-4">
+            <p class="footer__social">Мои профили в социальных сетях:</p>
+            <p class="footer__social-icons">
+              <a href="https://vk.com/freia7" target="_blank">
+                <i class="fab fa-vk"></i>
+              </a>
+            
+              <a href="https://www.facebook.com/lena.tarbeeva" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-4">
+            <div>
+              <a href="https://vk.com/freia7" class="button" target="_blank">связаться ВКОНТАКТЕ</a>
+            </div>
+            <p>
+              Напишите мне, чтобы заказать или узнать<br />
+              стоимость верстки вашего проекта
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
